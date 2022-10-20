@@ -20,7 +20,7 @@ const Projects = ({darkMode}) => {
       {/* boxes=================== */}
       <div className="flex flex-col lg:justify-between my-12 flex-wrap gap-12 md:flex-row   ">
         <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
-          <Image src={Trello} className="rounded-md" />
+          <Image alt="trello" src={Trello} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
             Trello
           </h3>
@@ -29,7 +29,7 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a
+          <a rel="noreferrer"
             href="https://suzan-rana.github.io/Trello/" target="_blank"
             className=" underline hover:no-underline text-xl"
           >
@@ -37,7 +37,7 @@ const Projects = ({darkMode}) => {
           </a>
         </div>
         <div className="shadow-md rounded-xl px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800">
-          <Image src={Ecwid} className="rounded-md" />
+          <Image alt="ecwid" src={Ecwid} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
             Ecwid
           </h3>
@@ -46,7 +46,7 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a
+          <a rel="noreferrer"
             href="https://suzan-rana.github.io/Ecwid/"
             className="text-xl underline hover:no-underline" target="_blank"
           >
@@ -54,7 +54,7 @@ const Projects = ({darkMode}) => {
           </a>
         </div>
         <div className="shadow-md rounded-xl px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800">
-          <Image src={BookmarkManager} className="rounded-md" />
+          <Image alt='bookmarkmanager' src={BookmarkManager} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
             Bookmark Manager
           </h3>
@@ -63,7 +63,7 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a
+          <a rel="noreferrer"
             href="https://suzan-rana.github.io/Bookmark-Manager/" target="_blank"
             className="text-xl underline hover:no-underline"
           >
@@ -71,7 +71,7 @@ const Projects = ({darkMode}) => {
           </a>
         </div>
         <div className="shadow-md rounded-xl px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800">
-          <Image src={Manage} className="rounded-md" />
+          <Image alt="manage" src={Manage} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
             Manage
           </h3>
@@ -80,7 +80,7 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a
+          <a rel="noreferrer"
             href="https://suzan-rana.github.io/manage-landing-tailwindcss/" target="_blank"
             className="text-xl underline hover:no-underline "
           >

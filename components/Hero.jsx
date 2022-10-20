@@ -31,7 +31,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="w-[68%] mb-8 mx-auto">
-        <Image src={slime} />
+        <Image src={slime} alt='slime' />
       </div>
     </section>
   );
