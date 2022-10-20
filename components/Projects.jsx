@@ -5,8 +5,7 @@ import Ecwid from "../public/images/ecwid.png";
 import BookmarkManager from "../public/images/bookmarkManager.png";
 import Manage from "../public/images/manage.png";
 import {BsArrowRight} from "react-icons/bs";
-// #1A1A1A
-// #242424
+
 const Projects = ({darkMode}) => {
   
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "./Navbar"
-import { useState } from 'react'
+
 
 const Layout = ({ children, darkMode, setDarkMode }) => {
 
@@ -11,5 +11,5 @@ const Layout = ({ children, darkMode, setDarkMode }) => {
     </div>
   )
 }
-// hello world 
+
 export default Layout;

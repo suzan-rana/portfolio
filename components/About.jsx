@@ -3,7 +3,7 @@ import Image from "next/image";
 import me from "../public/images/me.jpg";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
-// import { AiFillTwitterCircle } from "react-icons/ai";
+
 
 const copyText = () => {
   const tag = document.getElementById("copyField");
@@ -11,8 +11,7 @@ const copyText = () => {
   tag.classList.toggle(`text-white`);
   navigator.clipboard.writeText(tag.value);
 };
-// #1A1A1A
-// #242424
+
 const About = () => {
   return (
     <div className="mt-12 py-4 mx-auto max-w-[900px] w-[90%] pb-16">
