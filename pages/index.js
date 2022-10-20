@@ -2,7 +2,6 @@ import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import { BsArrowRight } from "react-icons/bs";
-import Link from "next/link";
 
 export default function Home({ darkMode, setDarkMode }) {
   return (
@@ -17,14 +16,12 @@ export default function Home({ darkMode, setDarkMode }) {
         >
           <Projects />
           <p className="text-center font-clashDisplay text-2xl bg-white bg-opacity-20 backdrop-filter dark:text-slate-400 backdrop-blur-lg   px-4 py-6">
-            <Link href="/">
-              <a
-                className="cursor-pointer underline hover:no-underline dark:text-white"
-                href="https://github.com/suzan-rana"
-              >
-                View all projects <BsArrowRight className="inline-block" />
-              </a>
-            </Link>
+            <a
+              className="cursor-pointer underline hover:no-underline dark:text-white"
+              href="https://github.com/suzan-rana"
+            >
+              View all projects <BsArrowRight className="inline-block" />
+            </a>
           </p>
         </section>
 
@@ -40,4 +37,3 @@ export default function Home({ darkMode, setDarkMode }) {
     </div>
   );
 }
-  
