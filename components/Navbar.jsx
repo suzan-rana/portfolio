@@ -15,10 +15,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Link href="/blogs">Blogs</Link>
             </li>
             <li className="text-lg">
-              <a href="http://localhost:3000/#projects">Projects</a>
+              <a href="https://suzanrana.vercel.app/#projects">Projects</a>
             </li>
             <li className="text-lg">
-              <a href="http://localhost:3000/#about">About</a>
+              <a href="https://suzanrana.vercel.app/#about">About</a>
             </li>
           </ul>
           <div className="w-[20%] sm:w-[50%] flex justify-end" id="night">
