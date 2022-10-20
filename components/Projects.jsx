@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Trello from "../public/images/trello.png";
+import Webcommerce from "../public/images/webcommerce.png";
 import Ecwid from "../public/images/ecwid.png";
 import BookmarkManager from "../public/images/bookmarkManager.png";
 import Manage from "../public/images/manage.png";
@@ -19,6 +20,23 @@ const Projects = ({darkMode}) => {
       </p>
       {/* boxes=================== */}
       <div className="flex flex-col lg:justify-between my-12 flex-wrap gap-12 md:flex-row   ">
+      <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
+          <Image alt="trello" src={Webcommerce} className="rounded-md" />
+          <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
+            WebCommerce
+          </h3>
+          <p className="py-6 md:text-lg dark:text-slate-400  ">
+            This project was made using NextJS, Material, Sanity.io, Stripe for payments. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quam corrupti dolorum consequuntur
+            modi velit. Magnam?
+          </p>
+          <a rel="noreferrer"
+            href="https://webcommerce-nine.vercel.app/" target="_blank"
+            className=" underline hover:no-underline text-xl"
+          >
+            Visit site here <BsArrowRight className="inline" />
+          </a>
+        </div>
         <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
           <Image alt="trello" src={Trello} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
