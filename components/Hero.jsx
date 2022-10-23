@@ -11,10 +11,9 @@ const Hero = () => {
       <h4 className="text-lg md:text-2xl font-medium text-center py-2 md:py-4">
         Frontend Web Developer
       </h4>
-      <p className="text-center text-gray-800 text-sm md:w-[70%] text-slate dark:text-slate-400 mt-4 mb-8 mx-auto leading-7">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-        necessitatibus molestiae itaque dicta, ratione sed minima repudiandae
-        facilis ex dignissimos.
+      <p className="text-center text-gray-800 text-sm md:w-[55%] text-slate dark:text-slate-400 mt-4 mb-8 mx-auto leading-7">
+        Hello, I am an aspiring software engineer and a passionate tech
+        enthusiast. I love exploring and learning new technologies.
       </p>
       <div className="flex justify-center gap-6  mb-12">
         <a
@@ -24,14 +23,15 @@ const Hero = () => {
           Contact me
         </a>
         <a
-          href="../public/images/slime.png"
+          download
+          href="suzanrana.pdf"
           className="bg-[#4bba00] text-white px-4 py-2  rounded-md shadow-md cursor-pointer hover:bg-transparent border-transparent hover:border-[#4bba00] border-[1px] hover:text-[#4bba00]"
         >
           Resume
         </a>
       </div>
       <div className="w-[68%] mb-8 mx-auto">
-        <Image src={slime} alt='slime' />
+        <Image src={slime} alt="slime" />
       </div>
     </section>
   );

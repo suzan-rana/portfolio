@@ -4,6 +4,7 @@ import me from "../public/images/me.jpg";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { IoIosArrowForward } from "react-icons/io";
+import {BsArrowRight} from "react-icons/bs";
 
 const copyText = () => {
   const tag = document.getElementById("copyField");
@@ -18,7 +19,7 @@ const About = () => {
       <h1 className="text-center font-clashDisplay font-semibold text-5xl">
         About Me
       </h1>
-      <div className="flex flex-col md:flex-row flex-start gap-6 md:gap-16 my-16 py-12 rounded-lg px-8 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
+      <div className="flex items-center flex-col md:flex-row flex-start gap-6 md:gap-16 my-16 py-12 rounded-lg px-8 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
         <div className="overflow-hidden rounded-xl">
           <Image
             src={me}
@@ -28,17 +29,24 @@ const About = () => {
         </div>
         <div className="max-w-[500px]">
           <h3 className="mb-4 tracking-widest text-3xl font-clashDisplay font-semibold flex">
-            
-            Who am I ?
+            My Profile
           </h3>
-          <p className="text-xl  leading-8 dark:text-slate-300" id="contact">
-            Hello, my name is Suzan Rana, a developer based in Nepal. I love
-            programming and building web applications and solving the problems
-            of multiple people through technology. Every time I solve a new
-            problem and help people and grow business, it makes my heart warm
-            and glad and the sense of satisfaction of that particular moment
-            keeps me moving forward.
+          <p
+            className="text-xl mb-8 leading-8 dark:text-slate-300"
+            id="contact"
+          >
+            Hello, I am an aspiring software engineer and a passionate tech
+            enthusiast. I love exploring and learning new technologies.
+            Currently, I am pursuing my bachelor's in Computer Application(BCA)
+            and working hard to become a better software engineer and build
+            better applications.
           </p>
+          <a
+            className="flex items-center gap-2 text-xl underline leading-8 hover:no-underline dark:text-[#aad98b] "
+            href="https://www.linkedin.com/in/suzan-rana-03044924a/"
+          >
+           <span>Lets connect on LinkedIn</span> <BsArrowRight />
+          </a>
         </div>
       </div>
       <div className="flex  my-6 justify-around gap-4 items-center bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 min-w-[300px] w-[50%] px-5 py-6 mx-auto rounded-xl ">
