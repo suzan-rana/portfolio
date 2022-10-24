@@ -37,7 +37,7 @@ const About = () => {
           >
             Hello, I am an aspiring software engineer and a passionate tech
             enthusiast. I love exploring and learning new technologies.
-            Currently, I am pursuing my bachelor's in Computer Application(BCA)
+            Currently, I am pursuing my bachelor &apos;s in Computer Application(BCA)
             and working hard to become a better software engineer and build
             better applications.
           </p>
