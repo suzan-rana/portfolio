@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Trello from "../public/images/trello.png";
+import Violla from "../public/images/viola.png";
+
 import Webcommerce from "../public/images/webcommerce.png";
 import Ecwid from "../public/images/ecwid.png";
 import BookmarkManager from "../public/images/bookmarkManager.png";
 import Manage from "../public/images/manage.png";
-import {BsArrowRight} from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
-const Projects = ({darkMode}) => {
-  
+const Projects = ({ darkMode }) => {
   return (
     <div className="py-12 max-w-[900px] w-[90%] mx-auto my-20 dark:bg-transparent  ">
       <h1 className="font-clashDisplay text-center text-5xl font-semibold dark:text-white">
@@ -20,21 +21,31 @@ const Projects = ({darkMode}) => {
       </p>
       {/* boxes=================== */}
       <div className="flex flex-col lg:justify-between my-12 flex-wrap gap-12 md:flex-row   ">
-      <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
+        <Card
+          title={"CMS - Backend"}
+          description="This is a content management system(blogging application) - Made with TypeScript, Postgresql, NestJS.  Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Quam corrupti dolorum consequuntur
+          modi velit. Magnam?"
+          imageLink={Violla}
+          link="https://github.com/suzan-rana/cms-backend"
+        />
+        <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
           <Image alt="trello" src={Webcommerce} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
-            WebCommerce
+            WebCommerce Backend
           </h3>
           <p className="py-6 md:text-lg dark:text-slate-400  ">
-            This project was made using NextJS, Material, Sanity.io, Stripe for payments. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Quam corrupti dolorum consequuntur
-            modi velit. Magnam?
+            This project was made using NestJS, NextJS, MaterialUI. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Quam corrupti dolorum
+            consequuntur modi velit. Magnam?
           </p>
-          <a rel="noreferrer"
-            href="https://webcommerce-nine.vercel.app/" target="_blank"
+          <a
+            rel="noreferrer"
+            href="https://github.com/suzan-rana/webcommerce-backend"
+            target="_blank"
             className=" underline hover:no-underline text-xl"
           >
-            Visit site here <BsArrowRight className="inline" />
+            Visit code here <BsArrowRight className="inline" />
           </a>
         </div>
         <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
@@ -47,8 +58,10 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a rel="noreferrer"
-            href="https://suzan-rana.github.io/Trello/" target="_blank"
+          <a
+            rel="noreferrer"
+            href="https://suzan-rana.github.io/Trello/"
+            target="_blank"
             className=" underline hover:no-underline text-xl"
           >
             Visit site here <BsArrowRight className="inline" />
@@ -64,15 +77,21 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a rel="noreferrer"
+          <a
+            rel="noreferrer"
             href="https://suzan-rana.github.io/Ecwid/"
-            className="text-xl underline hover:no-underline" target="_blank"
+            className="text-xl underline hover:no-underline"
+            target="_blank"
           >
             Visit site here <BsArrowRight className="inline" />
           </a>
         </div>
         <div className="shadow-md rounded-xl px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800">
-          <Image alt='bookmarkmanager' src={BookmarkManager} className="rounded-md" />
+          <Image
+            alt="bookmarkmanager"
+            src={BookmarkManager}
+            className="rounded-md"
+          />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
             Bookmark Manager
           </h3>
@@ -81,8 +100,10 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a rel="noreferrer"
-            href="https://suzan-rana.github.io/Bookmark-Manager/" target="_blank"
+          <a
+            rel="noreferrer"
+            href="https://suzan-rana.github.io/Bookmark-Manager/"
+            target="_blank"
             className="text-xl underline hover:no-underline"
           >
             Visit site here <BsArrowRight className="inline" />
@@ -98,8 +119,10 @@ const Projects = ({darkMode}) => {
             consectetur adipisicing elit. Quam corrupti dolorum consequuntur
             modi velit. Magnam?
           </p>
-          <a rel="noreferrer"
-            href="https://suzan-rana.github.io/manage-landing-tailwindcss/" target="_blank"
+          <a
+            rel="noreferrer"
+            href="https://suzan-rana.github.io/manage-landing-tailwindcss/"
+            target="_blank"
             className="text-xl underline hover:no-underline "
           >
             Visit site here <BsArrowRight className="inline" />
@@ -111,3 +134,21 @@ const Projects = ({darkMode}) => {
 };
 
 export default Projects;
+
+export const Card = ({ title, link, imageLink, description }) => {
+  return (
+    <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
+      <Image alt="trello" src={imageLink} className="rounded-md" />
+      <h3 className="text-3xl font-semibold font-clashDisplay mt-4">{title}</h3>
+      <p className="py-6 md:text-lg dark:text-slate-400  ">{description}</p>
+      <a
+        rel="noreferrer"
+        href={link}
+        target="_blank"
+        className=" underline hover:no-underline text-xl"
+      >
+        Visit code here <BsArrowRight className="inline" />
+      </a>
+    </div>
+  );
+};

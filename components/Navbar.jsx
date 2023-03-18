@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
+  const url = "https://suzanrana.com.np";
   return (
     <div>
       <header className="flex dark:bg-slate-900 w-[100%] justify-center h-[125px]">
@@ -12,13 +13,13 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <Link href="/">Home</Link>
             </li>
             <li className="text-lg">
-              <Link href="/blogs">Blogs</Link>
+              <Link href={url + "/blogs"}>Blogs</Link>
             </li>
             <li className="text-lg">
-              <a href="https://suzanrana.vercel.app/#projects">Projects</a>
+              <Link href={url + "#projects"}>Projects</Link>
             </li>
             <li className="text-lg">
-              <a href="https://suzanrana.vercel.app/#about">About</a>
+              <Link href={url + "#projects"}>About</Link>
             </li>
           </ul>
           <div className="w-[20%] sm:w-[50%] flex justify-end" id="night">

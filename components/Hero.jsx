@@ -5,15 +5,16 @@ import slime from "../public/images/slime.png";
 const Hero = () => {
   return (
     <section className="w-[95%] max-w-[900px] mx-auto dark:bg-transparent ">
-      <h1 className="text-5xl md:text-6xl pt-4 font-clashDisplay  font-[700] text-center mainText">
+      <h1 className="text-5xl md:text-7xl pt-4 font-clashDisplay  font-[600] text-center mainText">
         Suzan Rana
       </h1>
       <h4 className="text-lg md:text-2xl font-medium text-center py-2 md:py-4">
-        Frontend Web Developer
+        Backend Web Developer
       </h4>
       <p className="text-center text-gray-800 text-sm md:w-[55%] text-slate dark:text-slate-400 mt-4 mb-8 mx-auto leading-7">
-        Hello, I am an aspiring software engineer and a passionate tech
-        enthusiast. I love exploring and learning new technologies.
+        Hello, I am an aspiring Software Engineer, currently learning
+        TypeScript, (NodeJS) ={">"} NestJS, PostgresSQl and other fun
+        technologies.
       </p>
       <div className="flex justify-center gap-6  mb-12">
         <a
