@@ -23,9 +23,7 @@ const Projects = ({ darkMode }) => {
       <div className="flex flex-col lg:justify-between my-12 flex-wrap gap-12 md:flex-row   ">
         <Card
           title={"CMS - Backend"}
-          description="This is a content management system(blogging application) - Made with TypeScript, Postgresql, NestJS.  Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Quam corrupti dolorum consequuntur
-          modi velit. Magnam?"
+          description="This is a content management system(blogging application), where user can write blogs, read blogs and do other cool stuffs - Made with TypeScript, Postgresql, NestJS.  "
           imageLink={Violla}
           link="https://github.com/suzan-rana/cms-backend"
         />
@@ -35,7 +33,10 @@ const Projects = ({ darkMode }) => {
             WebCommerce Backend
           </h3>
           <p className="py-6 md:text-lg dark:text-slate-400  ">
-            This project was made using NestJS, NextJS, TypeScript, MaterialUI.
+            This project was made using NestJS, NextJS, TypeScript, MaterialUI,
+            This is an ecommerce app built on the web, where you can, add items
+            to card, remove items, Stripe(for payment) is used (although only
+            for test purposes).
           </p>
           <a
             rel="noreferrer"
