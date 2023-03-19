@@ -16,8 +16,8 @@ const Projects = ({ darkMode }) => {
         Projects
       </h1>
       <p className="md:text-lg text-gray-700 leading-8 py-4 text-center md:w-[65%] mx-auto dark:text-slate-400">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-        dolor ut natus quos molestiae vel assumenda cupiditate quae cum maiores.
+        Some of my recently build Backend Projects, I like to use TypeScript,
+        NestJS, NextJS, TypeOrm.
       </p>
       {/* boxes=================== */}
       <div className="flex flex-col lg:justify-between my-12 flex-wrap gap-12 md:flex-row   ">
@@ -35,9 +35,7 @@ const Projects = ({ darkMode }) => {
             WebCommerce Backend
           </h3>
           <p className="py-6 md:text-lg dark:text-slate-400  ">
-            This project was made using NestJS, NextJS, MaterialUI. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Quam corrupti dolorum
-            consequuntur modi velit. Magnam?
+            This project was made using NestJS, NextJS, TypeScript, MaterialUI.
           </p>
           <a
             rel="noreferrer"
@@ -48,7 +46,7 @@ const Projects = ({ darkMode }) => {
             Visit code here <BsArrowRight className="inline" />
           </a>
         </div>
-        <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
+        {/* <div className="w-[100%] shadow-md rounded-xl overflow-hidden px-6 py-6 lg:w-[45%] bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg dark:bg-slate-800 ">
           <Image alt="trello" src={Trello} className="rounded-md" />
           <h3 className="text-3xl font-semibold font-clashDisplay mt-4">
             Trello
@@ -127,7 +125,7 @@ const Projects = ({ darkMode }) => {
           >
             Visit site here <BsArrowRight className="inline" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
