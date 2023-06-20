@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.suzanrana.com.np
+
+# Sitemaps
+Sitemap: https://www.suzanrana.com.np/sitemap.xml
