@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Suzan Rana is a software engineer from Nepal with expertise in web development with core technologies being React, NextJS, TailwindCSS and NodeJS."
         />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/x-icon" sizes="any" />
         <meta property="og:site_name" content="Suzan Rana" />
         <meta property="og:locale" content="en-US" />
         <meta property="og:image" content="/WebsiteBanner.png" />
