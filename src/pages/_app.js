@@ -28,11 +28,9 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.svg" type="image/x-icon" sizes="any" />
         <meta property="og:site_name" content="Suzan Rana" />
         <meta property="og:locale" content="en-US" />
-        <meta property="og:image" content="/WebsiteBanner.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
-        <meta property="twitter:card" content="summary_large_image" />
       </Head>
       {getLayout(<Component {...pageProps} />)}
       <Analytics />
