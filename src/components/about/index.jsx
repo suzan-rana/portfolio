@@ -7,7 +7,7 @@ import {
 
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import Image from "next/image";
-import { profile } from "@/assets";
+import { aboutImage, profile } from "@/assets";
 import TextContainer from "../common/TextContainer";
 import Button from "../ui/Button";
 
@@ -36,7 +36,7 @@ const About = () => {
                 className="w-full z-10"
               >
                 <Image
-                  src={profile}
+                  src={aboutImage}
                   className="rounded-xl h-full w-full object-cover z-10"
                   alt="Profile"
                 />

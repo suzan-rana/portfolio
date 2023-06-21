@@ -1,4 +1,4 @@
-This is a portfolio website of [Myself](https://sulavgiri.com.np/).
+This is a portfolio website of [Myself](https://suzanrana.com.np/).
 
 ## Technologies used
 

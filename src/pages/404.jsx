@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <>
       <Head>
-        <title>Page Not Found - Sulav Giri</title>
+        <title>Page Not Found - Suzan Rana</title>
       </Head>
       <section className="h-[100vh] w-full flex justify-center items-center bg-background">
         <Header />

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { me } from "../../assets";
+import { heroImage } from "../../assets";
 import { motion } from "framer-motion";
 import {
   scaleOutAnimation,
@@ -17,11 +17,11 @@ const Info = () => {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.2 }}
         variants={scaleOutAnimation}
-        className="sm:h-[150px] sm:w-[150px] relative rounded-full h-[120px] w-[120px]"
+        className="sm:h-[150px] border-[1px] border-textSecondary/20 sm:w-[150px] relative rounded-full h-[120px] w-[120px]"
       >
         <Image
-          src={me}
-          className="object-cover border border-red-300 object-center rounded-full"
+          src={heroImage}
+          className="object-contain object-bottom rounded-full"
           alt="profile"
           priority
           fill
@@ -38,13 +38,26 @@ const Info = () => {
           FULL STACK DEVELOPER
         </motion.p>
         <motion.h1
-          className="uppercase font-prompt font-semibold sm:text-[4rem] text-[3rem] text-primary leading-tight"
+          className="uppercase font-prompt font-semibold sm:text-[4rem] text-[3rem] text-green-400 leading-tight"
           variants={wordsContainer}
           initial="hidden"
           animate="visible"
         >
           <TextContainer text="SUZAN RANA" />
         </motion.h1>
+        <motion.p
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={slideOutAnimation}
+          className="text-gray-400 max-w-[70%] my-2 mx-auto"
+        >
+          Passionate and skilled software engineer specializing in React,
+          TypeScript, and Next.js, dedicated to delivering exceptional results
+           in the realm of web
+          development.
+        </motion.p>
+
         <Button>
           <a href="#about"> Hire me</a>
         </Button>
