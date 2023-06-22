@@ -1,5 +1,5 @@
 .cursor {
-	background-color: var(--color-white);
+	background-color: whitesmoke;
 	height: 14px;
 	width: 14px;
 	border-radius: 50%;
@@ -7,7 +7,7 @@
 	top: 0;
 	left: 0;
 	pointer-events: none;
-	outline: 1px solid var(--color-white);
+	outline: 1px solid whitesmoke;
 	outline-offset: 1.3rem;
 	z-index: 9999;
 	opacity: 0;
