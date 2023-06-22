@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
       </Head>
-      <Cursor />
+      {/* <Cursor /> */}
       {getLayout(<Component {...pageProps} />)}
       <Analytics />
     </>
