@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './Cursor.css';
+import styles from './Cursor.css';
 
 function Cursor(){
 
@@ -17,7 +17,7 @@ function Cursor(){
         };
       }, []);
 
-    const cursorClasses = `cursor ${hasMoved ? 'active' : ''}`;
+    const cursorClasses = `${styles.cursor} ${hasMoved ? styles.active : ''}`;
 
     return(
         <div 
