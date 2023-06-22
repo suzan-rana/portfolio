@@ -7,6 +7,7 @@ import NProgress from "nprogress";
 import { useEffect } from "react";
 import "./Nprogress.css";
 import { usePathname } from 'next/navigation'
+import Cursor from "@/components/ui/Cursor/Cursor";
 
 export default function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
@@ -32,6 +33,7 @@ export default function App({ Component, pageProps }) {
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
       </Head>
+      <Cursor />
       {getLayout(<Component {...pageProps} />)}
       <Analytics />
     </>
