@@ -4,11 +4,11 @@ import Script from "next/script";
 export default function Document() {
   return (
     <Html lang="en">
-      <link
+      {/* <link
         rel="preload"
         as="script"
         href="https://www.googletagmanager.com/gtag/js?id=G-Y20ZWK8XJK"
-      />
+      /> */}
       <Head />
 
       <link rel="canonical" href="https://www.suzanrana.com.np" />
@@ -24,7 +24,7 @@ export default function Document() {
       />
 
       <body>
-        <Script
+        {/* <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-Y20ZWK8XJK"
         />
@@ -37,7 +37,7 @@ export default function Document() {
 
           gtag('config', 'G-Y20ZWK8XJK');
         `}
-        </Script>
+        </Script> */}
         <Main />
         <NextScript />
       </body>

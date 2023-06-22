@@ -60,7 +60,7 @@ const Header = () => {
               size={22}
               duration={0.5}
               color="#FFFFFF"
-              rounded
+              rounded 
             />
           </div>
         </div>
