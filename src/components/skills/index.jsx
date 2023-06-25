@@ -12,24 +12,23 @@ import {
   SiRedux
 } from "react-icons/si";
 import {TbBrandNextjs} from 'react-icons/tb'
+import zodIcon from '../../../public/icons/zod.svg'
 
 import SkillCard from "./SkillCard";
 import TextContainer from "../common/TextContainer";
 import { motion } from "framer-motion";
 import { wordsContainerNoDelay } from "@/utils/AnimationVarients";
+import Image from "next/image";
 
 const data = [
   {
+    icon: <TbBrandNextjs />,
+    title: 'NextJS'
+  }
+  ,
+  {
     icon: <FaReact />,
     title: "React JS",
-  },
-  {
-    icon: <FaNode />,
-    title: "Node JS",
-  },
-  {
-    icon: <FaSass />,
-    title: "SASS",
   },
   {
     icon: <SiTailwindcss />,
@@ -40,6 +39,14 @@ const data = [
     title: 'TypeScript'
   },
   {
+    icon: <FaNode />,
+    title: "Node JS",
+  },
+  {
+    icon: <FaSass />,
+    title: "SASS",
+  },
+  {
     icon: <FaGithub />,
     title: 'Github'
   },
@@ -47,11 +54,6 @@ const data = [
   {
     icon: <FaGitAlt />,
     title: 'Git'
-  }
-  ,
-  {
-    icon: <TbBrandNextjs />,
-    title: 'NextJS'
   }
   ,
   {
