@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Full Stack Developer Intern",
+    "company": "Infoxit Pvt. Ltd., Butwal, Nepal",
+    "dateStarted": "April, 2023",
+    "dateEnd": "June, 2023",
+    "description": [
+      "Spearheaded the development of a cutting-edge language consultancy application, igniting a passion for front-end development and showcasing mastery of React, JavaScript, HTML, CSS, and Tailwind CSS.",
+      "Empowered the project's back-end system by single-handedly creating 50% of the robust APIs using Node.js, Express.js, and MySQL, enabling flawless communication between the front-end, back-end, and the database.",
+      "Infused the application with an unwavering commitment to user security and convenience, seamlessly integrating a state-of-the-art payment processing system through the eSewa payment gateway.",
+      "Embodied a relentless drive for excellence and unwavering dedication, fostering a dynamic team environment, collaborating seamlessly with talented developers, designers, and project managers, and surpassing all expectations to deliver exceptional results within tight project timelines."
+    ]
+  },
+  {
+    "title": "React Developer Intern",
+    "company": "LancemeUp Pvt. Ltd., Lalitpur, Nepal",
+    "dateStarted": "Oct, 2022",
+    "dateEnd": "Feb, 2023",
+    "description": [
+        "Developed the user tracking module for lancemeup.com, implementing robust tracking mechanisms using Typescript, React, NextJS, and SCSS. Monitored user behavior and enhanced product analytics, driving data-driven decision-making.",
+        "Assisted in maintaining and optimizing various modules within the Sass product, including the drive and workspace modules. Collaborated closely with the team to address bugs, implement new features, and ensure seamless functionality and enhanced usability.",
+        "Successfully delivered a complete government project related to traveling, showcasing expertise in React development. Developed intuitive and user-friendly interfaces, meeting all specified requirements within the given time frame.",
+        "Demonstrated unwavering passion for React development and a commitment to delivering time-bound results. Embraced challenges, leveraged skills to overcome obstacles, and consistently delivered high-quality work, contributing to the success of the projects."
+    ]
+  }
+]

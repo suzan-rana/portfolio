@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Mero Byapar",
+    "featuredImage": "/projects/card/mero-byapar.png",
+    "url": "https://mero-byapar.vercel.app",
+    "github": "https://github.com/suzan-rana/mero-byapar",
+    "stack": [
+      "Web Application",
+      "Next JS",
+      "Prisma",
+      "React",
+      "Node.js",
+      "React Query",
+      "Tailwind CSS",
+      "Zod",
+      "TypeScript"
+    ],
+    "subtitle": "Mero Byapar is a React-based business management application that enables small businesses to efficiently track and manage products, orders, and sales with a user-friendly interface.",
+    "description": "<p>Mero Byapar is a comprehensive business management application developed using React, Next.js 13, TypeScript, and Zod. Specifically designed for small businesses, this project enables efficient record-keeping of products, orders, and sales. The user-friendly interface ensures ease of use and seamless navigation, making it an essential tool for businesses seeking a streamlined solution for their day-to-day operations.</p><p>To ensure data integrity and consistency, Mero Byapar leverages the power of Zod, a runtime validation library for TypeScript. By implementing Zod, the application enforces strict data validation, preventing errors and ensuring reliable and accurate information throughout the system. This feature provides businesses with confidence in the integrity of their data and streamlines their overall business processes.</p>"
+  },
+  {
+    "id": 2,
+    "title": "Vibe",
+    "featuredImage": "/projects/card/vibe.png",
+    "url": "https://v-suzan-rana.vercel.app/",
+    "stack": [
+      "Web Application",
+      "Next JS",
+      "Prisma",
+      "tRPC",
+      "React",
+      "Node.js",
+      "React Query",
+      "Tailwind CSS",
+      "Zod",
+      "TypeScript"
+    ],
+    "github": "https://github.com/suzan-rana/Write-Your-Vibes",
+    "subtitle": "Vibe is a React-based blogging app powered by Next.js 13 and the T3 stack, offering users an engaging platform to create, read, and comment on blog posts with a sleek and user-friendly interface.",
+    "description": "<p>Vibe is a sophisticated blogging application developed with React, Next.js 13, and the T3 stack. This dynamic platform provides users with an engaging and interactive experience, allowing them to create, read, and comment on blog posts. With a sleek and user-friendly interface, Vibe offers a seamless blogging environment for individuals to express their ideas and engage with a vibrant community of readers.</p><p>By implementing the T3 stack, Vibe provides a secure and reliable authentication system, allowing users to register, login, and maintain personalized profiles.  The robust authentication infrastructure ensures a safe and personalized experience for all users.</p><p>With Vibe, users can actively engage in the blogging community by leaving comments on blog posts. This interactive feature fosters discussions and enables users to connect with authors and other readers, creating a lively and engaging environment. By encouraging interaction and collaboration, Vibe cultivates a sense of community and facilitates the exchange of ideas, opinions, and knowledge among its users.</p>"
+  },
+  {
+    "id": 3,
+    "title": "Task Manager",
+    "featuredImage": "/projects/card/task-manager.png",
+    "url": "https://task-manager-4zbi.vercel.app/",
+    "stack": [
+      "React Beautiful DND",
+      "Drag and Drop",
+      "Web Application",
+      "React",
+      "Node.js",
+      "React Query",
+      "Tailwind CSS",
+      "Zod",
+      "TypeScript"
+    ],
+    "github": "https://github.com/suzan-rana/task-manager",
+    "subtitle": "Task Manager is a React-based project management application that incorporates drag and drop functionality, inspired by Jira, to seamlessly organize tasks across different states.",
+    "description": "<p>Task Manager is a dynamic project management application developed using React Beautiful DND, a powerful library that enables seamless drag and drop functionality. Drawing inspiration from the popular Jira platform, the application provides users with a visually appealing and intuitive interface for managing tasks. With three primary states—To-Do, In Progress, and Done—the Task Manager offers a flexible and efficient way to organize and track tasks throughout the project lifecycle.</p><p>One of the key features of Task Manager is its drag and drop functionality, which empowers users to easily reorganize and update their task lists. Leveraging React Beautiful DND, users can effortlessly move tasks between different states by simply dragging and dropping them into the desired category. This intuitive interaction allows for seamless task management and enhances productivity by streamlining the process of updating task statuses.</p><p>With Task Manager, users can create, edit, and delete tasks, ensuring that all relevant information is captured and tracked throughout the project's lifecycle. The application's clean and user-friendly interface promotes ease of use, allowing users to quickly navigate between tasks, update their statuses, and collaborate effectively with their team members. By leveraging the power of React Beautiful DND and drawing inspiration from Jira's drag and drop functionality, Task Manager offers an intuitive and efficient solution for project management.</p>"
+  }
+]
