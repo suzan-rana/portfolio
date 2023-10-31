@@ -1,6 +1,4 @@
 
-
-
 @font-face {
     font-family: "Inter";
     src: url("/fonts/Inter.ttf");
@@ -17,10 +15,13 @@
     font-family: "ClashDisplay-Semibold";
     src: url("/fonts/ClashDisplay-Semibold.otf");
 }
+
+* {
+    font-family: "Inter";
+}
 .projects, .about {
     padding-top: 3rem;
     background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-    
 }
 .dark-theme {
     background-image:  #1A1A1A;
@@ -97,6 +98,4 @@ html {
     border: 3px solid #0F172A;
   } 
 
-  .scroll-clr {
-    
-}
+  

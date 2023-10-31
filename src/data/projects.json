@@ -1,10 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Mero Byapar",
-    "featuredImage": "/projects/card/mero-byapar.png",
-    "url": "https://mero-byapar.vercel.app",
-    "github": "https://github.com/suzan-rana/mero-byapar",
+    "title": "Aavashree",
+    "featuredImage": "/projects/card/aavashree.png",
+    "url": "https://aavashree.lu",
     "stack": [
       "Web Application",
       "Next JS",
@@ -14,10 +13,12 @@
       "React Query",
       "Tailwind CSS",
       "Zod",
-      "TypeScript"
+      "TypeScript",
+      "Express JS",
+      "MongoDB"
     ],
-    "subtitle": "Mero Byapar is a React-based business management application that enables small businesses to efficiently track and manage products, orders, and sales with a user-friendly interface.",
-    "description": "<p>Mero Byapar is a comprehensive business management application developed using React, Next.js 13, TypeScript, and Zod. Specifically designed for small businesses, this project enables efficient record-keeping of products, orders, and sales. The user-friendly interface ensures ease of use and seamless navigation, making it an essential tool for businesses seeking a streamlined solution for their day-to-day operations.</p><p>To ensure data integrity and consistency, Mero Byapar leverages the power of Zod, a runtime validation library for TypeScript. By implementing Zod, the application enforces strict data validation, preventing errors and ensuring reliable and accurate information throughout the system. This feature provides businesses with confidence in the integrity of their data and streamlines their overall business processes.</p>"
+    "subtitle": "Aavashree is an online food ordering application of Luxemborg, which lets users order delicious food items of various different categories. Users can also reserve tables for any special occasions!",
+    "description": "<p>Aavashree is an innovative and user-friendly food ordering application that has redefined the way users experience online food delivery. Offering a seamless interface, Aavashree allows customers to effortlessly explore a plethora of culinary delights and place their desired items in a virtual cart for a hassle-free checkout process. With an extensive array of food categories ranging from local cuisines to international delicacies, users can indulge in a diverse gastronomic journey right at their fingertips. Whether craving a sizzling plate of authentic Indian curry or a scrumptious Italian pizza, Aavashree caters to every palate, ensuring a delightful and convenient dining experience for all.</p>"
   },
   {
     "id": 2,
@@ -27,6 +28,8 @@
     "stack": [
       "Web Application",
       "Next JS",
+      "NestJS",
+      "Express JS",
       "Prisma",
       "tRPC",
       "React",
@@ -44,7 +47,7 @@
     "id": 3,
     "title": "Task Manager",
     "featuredImage": "/projects/card/task-manager.png",
-    "url": "https://task-manager-4zbi.vercel.app/",
+    "url": "https://task-manager-phi-two.vercel.app/",
     "stack": [
       "React Beautiful DND",
       "Drag and Drop",

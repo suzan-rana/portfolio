@@ -35,7 +35,7 @@ const Info = () => {
           variants={slideOutAnimation}
           className="uppercase sm:tracking-[6px] tracking-[5px] sm:text-[20px] text-textSecondary font-karla"
         >
-          FULL STACK DEVELOPER
+          FULL STACK TYPESCRIPT DEVELOPER
         </motion.p>
         <motion.h1
           className="uppercase font-prompt font-semibold sm:text-[4rem] text-[3rem] text-green-400 leading-tight"
@@ -52,7 +52,7 @@ const Info = () => {
           variants={slideOutAnimation}
           className="text-gray-400 max-w-[70%] my-2 mx-auto"
         >
-          Passionate and skilled software engineer specializing in React,
+          Passionate and skilled software engineer specializing in NestJS,
           TypeScript, and Next.js, dedicated to delivering exceptional results
            in the realm of web
           development.

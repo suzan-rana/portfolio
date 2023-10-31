@@ -26,7 +26,7 @@ const Experience = () => {
         </motion.h2>
         <div className="h-[100px] w-[150px] absolute dots-background right-0 z-0"></div>
       </div>
-      <div className="pt-[2rem] flex flex-col  sm:flex-row md:px-[3rem]">
+      <div className="pt-[2rem] grid grid-cols-1 sm:grid-cols-2 ">
         {experienceData.map((entry, key) => (
           <ExperienceCard data={entry} key={key} active={true} />
         ))}

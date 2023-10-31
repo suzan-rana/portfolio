@@ -12,19 +12,36 @@ import {
   SiRedux
 } from "react-icons/si";
 import {TbBrandNextjs} from 'react-icons/tb'
-import zodIcon from '../../../public/icons/zod.svg'
-
 import SkillCard from "./SkillCard";
 import TextContainer from "../common/TextContainer";
 import { motion } from "framer-motion";
 import { wordsContainerNoDelay } from "@/utils/AnimationVarients";
+import NestJS from '../../../public/icons/nest.svg'
+import Elephant from '../../../public/icons/elephant.png'
+
 import Image from "next/image";
 
 const data = [
   {
+    icon: <Image width={60} height={60} src={NestJS} alt="NestJS" />,
+    title: "NestJS"
+  },
+  {
+    icon: <SiTypescript />,
+    title: 'TypeScript'
+  },
+  {
     icon: <TbBrandNextjs />,
     title: 'NextJS'
-  }
+  },
+  {
+    icon: <FaNode />,
+    title: "Node JS",
+  },
+  {
+    icon: <Image width={60} height={60} src={Elephant} alt="NestJS" />,
+    title: "PostgreSQL"
+  },
   ,
   {
     icon: <FaReact />,
@@ -33,14 +50,6 @@ const data = [
   {
     icon: <SiTailwindcss />,
     title: "Tailwind CSS",
-  },
-  {
-    icon: <SiTypescript />,
-    title: 'TypeScript'
-  },
-  {
-    icon: <FaNode />,
-    title: "Node JS",
   },
   {
     icon: <FaSass />,
@@ -63,7 +72,7 @@ const data = [
   ,
   {
     icon: <SiRedux />,
-    title: 'Redux Toolkit'
+    title: 'Redux'
   }
 ];
 
