@@ -7,7 +7,7 @@ import {
 
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import Image from "next/image";
-import { aboutImage, profile , me} from "@/assets";
+import { me } from "@/assets";
 import TextContainer from "../common/TextContainer";
 import Button from "../ui/Button";
 
@@ -26,7 +26,7 @@ const About = () => {
                 viewport={{ once: true, amount: 0.2 }}
                 className="sm:hidden block heading2 text-center"
               >
-                <TextContainer text="Introducing Myself" />
+                <TextContainer text="About Suzan Rana" />
               </motion.h2>
               <motion.div
                 variants={slideRightAnimation}
@@ -38,10 +38,11 @@ const About = () => {
                 <Image
                   src={me}
                   className="rounded-xl h-full w-full object-cover z-10"
-                  alt="Profile"
+                  alt="Suzan Rana Profile"
                 />
               </motion.div>
             </div>
+
             <motion.div
               variants={slideLeftAnimation}
               initial="offscreen"
@@ -49,35 +50,52 @@ const About = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="flex flex-col gap-4 basis-2/3 z-10"
             >
-              <h2 className="heading2 sm:block hidden">Introducing Myself</h2>
+              <h2 className="heading2 sm:block hidden">About Suzan Rana</h2>
               <div className="flex flex-col gap-2">
                 <p className="text-primary font-karla font-light">
-                  Hey, I am Suzan Rana, a passionate Software Developer from Nepal
-                  with a strong foundation in computer science. My expertise
-                  lies in web development using the MERN stack and TypeScript. I intent to dive deeper into web
-                  development and constantly strive to integrate modern
-                  technologies into web development to enhance user experience,
-                  improve performance and ensure reliability.
+                  Hello, I’m <strong>Suzan Rana</strong>, a Backend-leaning Software Engineer with over 3 years of experience designing high-performance systems, building B2B platforms, and deploying resilient backend services across Europe and Asia. Currently, I’m part of engineering teams at{" "}
+                  <a
+                    href="https://morgenland-teppiche.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-link underline"
+                  >
+                    Morgenland Teppiche
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    href="https://maison-architecture.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-link underline"
+                  >
+                    Maison & Architecture
+                  </a>, where I lead efforts around product data engineering and infrastructure scalability.
                   <br />
-                  I&apos;m looking forward to connect with fellow developers and
-                  industry professionals to exchange ideas, share knowledge, and
-                  embark on an incredible journey of growth and innovation.
+                  <br />
+                  My expertise spans <strong>Node.js, NestJS, PostgreSQL, AWS, RabbitMQ</strong>, and distributed systems. I’ve helped build SaaS platforms, e-commerce engines, and time tracking products like{" "}
+                  <a
+                    href="https://hourtag.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-link underline"
+                  >
+                    Hourtag
+                  </a>, always focused on performance, maintainability, and scale.
+                  <br />
+                  <br />
+                  I’m deeply interested in system design, developer experience, and continuous improvement—technically and personally. Let’s build things that last and scale.
                 </p>
-                <div>
-                  <h3 className="heading3">Education</h3>
-                  <div className="">
-                    <p className="font-karla text-primary text-[20px]">
-                      Lumbini City College - Tilottama, Nepal
-                    </p>
-                    <p className="font-karla font-light text-primary">
-                      BCA: Bachelor in Computer Application
-                    </p>
-                  </div>
-                </div>
               </div>
               <div className="w-max">
                 <Button>
-                  <a href="/resume.pdf" target="_blank" className="block w-full h-full">Checkout my Resume</a>
+                  <a
+                    href="/Suzan-Rana-Resume.pdf"
+                    target="_blank"
+                    className="block w-full h-full"
+                  >
+                    Checkout my Resume
+                  </a>
                 </Button>
               </div>
             </motion.div>

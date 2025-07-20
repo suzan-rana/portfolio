@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Suzan Rana - Full Stack TypeScript Developer</title>
+        <title>Suzan Rana - Full Stack Software Engineer</title>
       </Head>
       <main>
         <Hero />

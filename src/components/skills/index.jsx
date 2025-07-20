@@ -1,85 +1,39 @@
-import {
-  FaNode,
-  FaReact,
-  FaSass,
-  FaGitAlt,
-  FaGithub
-} from "react-icons/fa";
-import {
-  SiTailwindcss,
-  SiTypescript,
-  SiJavascript,
-  SiRedux
-} from "react-icons/si";
-import {TbBrandNextjs} from 'react-icons/tb'
 import SkillCard from "./SkillCard";
 import TextContainer from "../common/TextContainer";
 import { motion } from "framer-motion";
 import { wordsContainerNoDelay } from "@/utils/AnimationVarients";
-import NestJS from '../../../public/icons/nest.svg'
-import Elephant from '../../../public/icons/elephant.png'
-
-import Image from "next/image";
 
 const data = [
-  {
-    icon: <Image width={60} height={60} src={NestJS} alt="NestJS" />,
-    title: "NestJS"
-  },
-  {
-    icon: <SiTypescript />,
-    title: 'TypeScript'
-  },
-  {
-    icon: <TbBrandNextjs />,
-    title: 'NextJS'
-  },
-  {
-    icon: <FaNode />,
-    title: "Node JS",
-  },
-  {
-    icon: <Image width={60} height={60} src={Elephant} alt="NestJS" />,
-    title: "PostgreSQL"
-  },
-  ,
-  {
-    icon: <FaReact />,
-    title: "React JS",
-  },
-  {
-    icon: <SiTailwindcss />,
-    title: "Tailwind CSS",
-  },
-  {
-    icon: <FaSass />,
-    title: "SASS",
-  },
-  {
-    icon: <FaGithub />,
-    title: 'Github'
-  },
-  ,
-  {
-    icon: <FaGitAlt />,
-    title: 'Git'
-  }
-  ,
-  {
-    icon: <SiJavascript />,
-    title: 'JavaScript'
-  }
-  ,
-  {
-    icon: <SiRedux />,
-    title: 'Redux'
-  }
+  "Node.js",
+  "NestJS",
+  "PostgreSQL",
+  "Redis",
+  "MongoDB",
+  "CockroachDB",
+  "TypeScript",
+  "Python",
+  "Django",
+  "RESTful APIs",
+  "Microservices",
+  "RabbitMQ",
+  "Database optimization",
+  "AWS (RDS, ECS)",
+  "Docker",
+  "Kubernetes",
+  "Linux & CLI",
+  "CI/CD",
+  "Kafka",
+  "Big Data Feeds",
+  "Stripe Integration",
+  "Multitenant SaaS",
+  "Scalable Architecture",
+  "Performance Optimization"
 ];
 
 const Skills = () => {
   return (
     <section id="skills" className="pt-[10rem]">
-      <div className="py-[2rem}">
+      <div className="py-[2rem]">
         <div className="flex flex-row items-center relative">
           <div className="h-[130px] w-[60px] absolute dots-background left-2 z-0" />
           <motion.h2
@@ -89,15 +43,13 @@ const Skills = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="heading2 text-center z-10 main-container sm:px-0 px-[1rem]"
           >
-            <TextContainer  text="Skills" />
+            <TextContainer text="Skills" />
           </motion.h2>
         </div>
         <div className="main-container pt-[3rem] px-[1.5rem] w-full overflow-hidden">
-          <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-4 grid-cols-3 md:gap-x-12 md:gap-y-8 gap-x-4 gap-y-4 text-primary">
-            {data.map((entry, key) => (
-              <div className="col-span-1" key={key}>
-                <SkillCard icon={entry.icon} title={entry.title} />
-              </div>
+          <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 md:gap-x-8 items-center justify-center md:gap-y-6 gap-4 text-primary">
+            {data.map((title, key) => (
+              <SkillCard key={key} title={title} />
             ))}
           </div>
         </div>

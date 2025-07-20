@@ -35,7 +35,7 @@ const Info = () => {
           variants={slideOutAnimation}
           className="uppercase sm:tracking-[6px] tracking-[5px] sm:text-[20px] text-textSecondary font-karla"
         >
-          FULL STACK TYPESCRIPT DEVELOPER
+          FULL STACK SOFTWARE ENGINEER
         </motion.p>
         <motion.h1
           className="uppercase font-prompt font-semibold sm:text-[4rem] text-[3rem] text-green-400 leading-tight"
@@ -52,10 +52,7 @@ const Info = () => {
           variants={slideOutAnimation}
           className="text-gray-400 max-w-[70%] my-2 mx-auto"
         >
-          Passionate and skilled software engineer specializing in NestJS,
-          TypeScript, and Next.js, dedicated to delivering exceptional results
-           in the realm of web
-          development.
+          Backend & Data Engineer with expertise in NestJS, Django, TypeScript, and Next.js — building scalable APIs, real-time systems, and data-driven applications. Skilled in architecting robust backend infrastructures and delivering high-performance web solutions powered by PostgreSQL, Redis, and cloud-native tools.
         </motion.p>
 
         <Button>
