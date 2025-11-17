@@ -59,7 +59,7 @@ export default function Home() {
       location: "Kathmandu, Nepal",
       period: "Jan 2022 – Oct 2022",
       summary:
-        "Delivered senior-level polish for a productivity SaaS focused on collaboration surfaces.",
+        "Delivered excellent rated polish for a productivity SaaS focused on collaboration surfaces.",
       highlights: [
         "Implemented whiteboards, live chat, and Jira-style boards in React/Next.js with real-time collaboration primitives.",
         "Optimized rendering and bundle strategy to trim load times by 25% while keeping every interaction snappy.",
@@ -101,7 +101,7 @@ export default function Home() {
             Suzan Rana
           </h1>
           <p className="mb-6 text-base text-[#666666]">
-            Senior Full-Stack Developer
+            Full-Stack Developer
           </p>
 
           <p className="mb-4 text-xl leading-relaxed">
@@ -192,7 +192,7 @@ export default function Home() {
             et Architecture on request.
           </p>
           <p>
-            Currently open to senior engineering roles where backend rigor,
+            Currently open to  engineering roles where backend rigor,
             AI-native workflows, and thoughtful mentorship matter.
           </p>
         </section>
