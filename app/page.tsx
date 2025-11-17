@@ -108,7 +108,7 @@ export default function Home() {
             Building backend systems, AI agents, and SaaS products that keep distributed teams shipping calmly.
           </p>
           <p className="mb-6 leading-relaxed text-[#666666]">
-            I am based in Butwal, Rupandehi, and specialize in developing reliable, production-grade platforms. With expertise in Python, Django, LangGraph, React, Node.js, TypeScript, PostgreSQL, AWS, and agentic systems, I focus on building scalable data pipelines, automating processes, and implementing LLM-based solutions. My work is driven by a commitment to technical precision, thoughtful system design, and delivering impactful results through every phase of development.
+            I am based in Kathmandu, Nepal and specialize in developing reliable, production-grade platforms. With expertise in Python, Django, LangGraph, React, Node.js, TypeScript, PostgreSQL, AWS, and agentic systems, I focus on building scalable data pipelines, automating processes, and implementing LLM-based solutions. My work is driven by a commitment to technical precision, thoughtful system design, and delivering impactful results through every phase of development.
           </p>
 
           <div className="space-y-1 text-sm">
