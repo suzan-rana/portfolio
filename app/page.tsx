@@ -1,64 +1,204 @@
-import Image from "next/image";
-
 export default function Home() {
+  const contact = [
+    { label: "Email", value: "suzan.rnaa@gmail.com", href: "mailto:suzan.rnaa@gmail.com" },
+    { label: "Phone / Whatsapp", value: "+977 9848 497 112", href: "tel:+9779848497112" },
+    { label: "LinkedIn", value: "linkedin.com/in/suzan-rana", href: "https://www.linkedin.com/in/suzan-rana" },
+    { label: "GitHub", value: "github.com/suzan-rana", href: "https://github.com/suzan-rana" },
+    { label: "Resume", value: "Download PDF", href: "/suzanrana_resume.pdf" },
+  ];
+
+  const focusAreas = [
+    {
+      title: "Frontend",
+      stack: "React, Next.js, SvelteKit, Tailwind CSS, accessible HTML/CSS, responsive systems",
+    },
+    {
+      title: "Backend & APIs",
+      stack: "Python, Django, Node.js, NestJS, Express, GraphQL/REST, microservices, TypeORM, Prisma, Drizzle",
+    },
+    {
+      title: "Data & Infrastructure",
+      stack: "PostgreSQL, MySQL, MongoDB, Redis, ChromaDB, Supabase, AWS (Lambda, ECS, RDS), Docker, CI/CD",
+    },
+    {
+      title: "AI & Automation",
+      stack: "LangGraph, LangChain, RAG pipelines, chatbots, vector search, workflow automation, instrumentation",
+    },
+  ];
+
+  const experiences = [
+    {
+      role: "Backend & Data Engineer",
+      company: "Morgenland Teppiche",
+      location: "Hamburg, Germany",
+      period: "Aug 2024 – Sept 2025",
+      summary:
+        "Owned the European rug retailer's 100k+ SKU catalog and pricing feeds, bringing order to a multi-locale commerce engine.",
+      highlights: [
+        "Orchestrated feed generation for Amazon, OTTO, Home24, Wayfair, Check24, Meta, Pinterest, and Google Merchant Center to keep merchandising consistent across 13 locales.",
+        "Automated bulk updates and validation workflows that cut manual catalog edits by 40% while improving product data accuracy.",
+        "Stabilized ingestion, enrichment, and export pipelines so sales and marketing teams could trust the data that powers campaigns.",
+      ],
+    },
+    {
+      role: "Full-Stack Software Engineer",
+      company: "Hyteno",
+      location: "Paris, France",
+      period: "Oct 2022 – Sept 2024",
+      summary:
+        "Led the build-out of a multi-tenant restaurant SaaS covering white-labeled sites, ordering, and CRM tooling.",
+      highlights: [
+        "Composed a service mesh with NestJS, RabbitMQ, Redis, and PostgreSQL Aurora on AWS ECS/RDS to keep 100+ clients responsive.",
+        "Shipped automation-heavy features (menu versioning, delivery ops, marketing workflows) that reduced franchise onboarding from weeks to days.",
+        "Mentored the team on fault-tolerant deploys, observability, and clean API contracts to keep releases predictable.",
+      ],
+    },
+    {
+      role: "Frontend Engineer",
+      company: "LancemeUp",
+      location: "Kathmandu, Nepal",
+      period: "Jan 2022 – Oct 2022",
+      summary:
+        "Delivered senior-level polish for a productivity SaaS focused on collaboration surfaces.",
+      highlights: [
+        "Implemented whiteboards, live chat, and Jira-style boards in React/Next.js with real-time collaboration primitives.",
+        "Optimized rendering and bundle strategy to trim load times by 25% while keeping every interaction snappy.",
+        "Partnered with backend leads to rationalize API usage, simplifying state management and lowering data latency.",
+      ],
+    },
+  ];
+
+  const projects = [
+    {
+      name: "Hourtag — Time & Work Management",
+      url: "https://hourtag.com",
+      summary:
+        "NestJS + Next.js platform for time tracking, budgeting, and delivery health.",
+      details:
+        "Integrated AWS services, notifications, and live updates so teams can audit utilization without friction.",
+    },
+    {
+      name: "Hyteno Engine — Restaurant OS",
+      url: "https://hyteno.com",
+      summary:
+        "Backend spine for a multi-tenant ordering and site builder suite.",
+      details:
+        "Designed microservices, queue topologies, and payment gateway integrations that keep local businesses online 24/7.",
+    },
+  ];
+
+  const education = [
+    "Bachelor's in Information Technology — Lumbini City College, Tribhuwan University (Expected 2025)",
+    "+2 Science (Computer Science) — New Horizon College (2020)",
+  ];
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="bg-white text-black">
+      <main className="mx-auto max-w-3xl px-8 py-12">
+
+        <section className="mb-8">
+          <h1 className="mb-1 text-4xl font-normal">
+            Suzan Rana
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="mb-6 text-base text-[#666666]">
+            Senior Full-Stack Developer
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+
+          <p className="mb-4 text-xl leading-relaxed">
+            Building backend systems, AI agents, and SaaS products that keep distributed teams shipping calmly.
+          </p>
+          <p className="mb-6 leading-relaxed text-[#666666]">
+            Based in Butwal, Rupandehi — partnering with teams across Europe and Asia.
+            Production-grade platforms with Python, Django, LangGraph, React, Node.js, TypeScript,
+            PostgreSQL, and AWS. Focused on reliable data pipelines, automation-first roadmaps,
+            and senior energy that keeps releases calm.
+          </p>
+
+          <div className="space-y-1 text-sm">
+            {contact.map((item) => (
+              <div key={item.label}>
+                <span className="text-[#666666]">{item.label}: </span>
+                <a href={item.href}>{item.value}</a>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="mb-4 text-sm font-medium">Core Practice</h2>
+          <div className="space-y-3">
+            {focusAreas.map((area) => (
+              <div key={area.title}>
+                <p className="font-medium">{area.title}</p>
+                <p className="text-sm text-[#666666]">{area.stack}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="mb-4 text-sm font-medium">Experience</h2>
+          <div className="space-y-6">
+            {experiences.map((exp) => (
+              <article key={exp.company} className="space-y-2">
+                <div>
+                  <p className="font-medium">
+                    {exp.role}, {exp.company}
+                  </p>
+                  <p className="text-sm text-[#666666]">
+                    {exp.location} — {exp.period}
+                  </p>
+                  <p className="text-sm italic text-[#666666]">{exp.summary}</p>
+                </div>
+                <ul className="space-y-1 text-sm">
+                  {exp.highlights.map((highlight) => (
+                    <li key={highlight}>• {highlight}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="mb-4 text-sm font-medium">Products in Production</h2>
+          <div className="space-y-4">
+            {projects.map((project) => (
+              <article key={project.name} className="space-y-1">
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium"
+                >
+                  {project.name}
+                </a>
+                <p className="text-sm text-[#666666]">{project.summary}</p>
+                <p className="text-sm">{project.details}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="mb-4 text-sm font-medium">Education</h2>
+          <ul className="space-y-1 text-sm">
+            {education.map((item) => (
+              <li key={item}>• {item}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="space-y-2 text-sm text-[#666666]">
+          <p>
+            References available from leaders at Hyteno, Lancemeup, and Maison
+            et Architecture on request.
+          </p>
+          <p>
+            Currently open to senior engineering roles where backend rigor,
+            AI-native workflows, and thoughtful mentorship matter.
+          </p>
+        </section>
       </main>
     </div>
   );
