@@ -101,7 +101,7 @@ export default function Home() {
             Suzan Rana
           </h1>
           <p className="mb-6 text-base text-[#666666]">
-            Full-Stack Developer
+            Full-Stack Programmer with about 5 Years of experience working in Tech.
           </p>
 
           <p className="mb-4 text-xl leading-relaxed">
